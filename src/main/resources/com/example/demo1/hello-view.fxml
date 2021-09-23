@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="45.0" layoutY="44.0" promptText="Nome" />
+      <TextField layoutX="45.0" layoutY="76.0" promptText="Sobrenome" />
+      <DatePicker layoutX="45.0" layoutY="114.0" prefHeight="25.0" prefWidth="149.0" promptText="Data de Nascimento" />
+      <CheckBox layoutX="249.0" layoutY="48.0" mnemonicParsing="false" text="Masculino" />
+      <CheckBox layoutX="347.0" layoutY="48.0" mnemonicParsing="false" text="Feminino" />
+      <CheckBox layoutX="443.0" layoutY="48.0" mnemonicParsing="false" text="Outro" />
+      <Text layoutX="309.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Orientação Sexual">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <ComboBox layoutX="45.0" layoutY="152.0" prefHeight="25.0" prefWidth="70.0" promptText="UF" />
+      <TextField layoutX="45.0" layoutY="188.0" promptText="CEP" />
+      <ComboBox layoutX="119.0" layoutY="152.0" prefWidth="150.0" promptText="Cidade" />
+      <TextField layoutX="212.0" layoutY="188.0" prefHeight="25.0" prefWidth="366.0" promptText="Endereço" />
+      <TextField layoutX="212.0" layoutY="76.0" promptText="Telefone" />
+      <TextField layoutX="212.0" layoutY="114.0" prefHeight="25.0" prefWidth="366.0" promptText="E-mail" />
+   </children>
+</AnchorPane>
